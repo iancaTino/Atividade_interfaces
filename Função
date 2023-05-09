@@ -1,0 +1,10 @@
+public interface Funcao {
+    public void ligar();
+    public void desligar();
+    public void aumentaSom();
+    public void baixarSom();
+    public void tocarMusica();
+    public void pausarMusica();
+    public void pararMusica();
+
+}
