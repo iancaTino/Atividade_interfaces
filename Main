@@ -1,0 +1,17 @@
+public class programa {
+
+    public static void main(String[] args) {
+        Aparelho aparelho = new Aparelho();
+
+        aparelho.ligar();
+
+        aparelho.aumentaSom();
+        aparelho.baixarSom();
+
+        aparelho.tocarMusica();
+        aparelho.pausarMusica();
+        aparelho.pararMusica();
+
+        aparelho.desligar();
+    }
+}
