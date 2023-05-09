@@ -1,17 +1,18 @@
-public class programa {
+public class TesteInterfce {
 
-    public static void main(String[] args) {
-        Aparelho aparelho = new Aparelho();
+    public static void main(String[] args){
+        Celular celular = new Celular();
 
-        aparelho.ligar();
+        celular.ligar();
 
-        aparelho.aumentaSom();
-        aparelho.baixarSom();
+        celular.tocarMusica();
+        celular.pararMusica();
 
-        aparelho.tocarMusica();
-        aparelho.pausarMusica();
-        aparelho.pararMusica();
+        celular.enviarMensagem("Oii tudo bem?","Joana");
+        celular.receberMensagem("Olá estou bem e você?", "maria");
 
-        aparelho.desligar();
+        celular.desligar();
     }
 }
+
+
