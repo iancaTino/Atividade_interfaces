@@ -1,0 +1,24 @@
+public class Aparelho implements Funcao{
+
+    public void ligar(){
+        System.out.println("Ligando...");
+    }
+    public void desligar(){
+        System.out.println("Desligando...");
+    }
+    public void aumentaSom(){
+        System.out.println("Aumentando Som");
+    }
+    public void baixarSom(){
+        System.out.println("Bainxando Som.");
+    }
+    public void tocarMusica(){
+        System.out.println("Tocando Musica....");
+    }
+    public void pausarMusica(){
+        System.out.println("Pausando musica");
+    }
+    public void pararMusica(){
+        System.out.println("Parando musica.");
+    }
+}
