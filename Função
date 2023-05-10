@@ -4,5 +4,4 @@ public interface Funcao {
     
     public void tocarMusica();
     public void pararMusica();
-
 }
