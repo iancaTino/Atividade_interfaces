@@ -14,5 +14,3 @@ public class TesteInterfce {
         celular.desligar();
     }
 }
-
-
